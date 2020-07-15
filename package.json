@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --timeout=30000 ./tests"
+    "test": "mocha --timeout=30000 ./tests",
+    "testInput": "mocha --timeout=30000 ./tests/KeyboardSimulation.js"
   },
   "author": "",
   "license": "ISC",
