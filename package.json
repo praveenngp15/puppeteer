@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --timeout=30000 ./tests",
-    "testInput": "mocha --timeout=30000 ./tests/KeyboardSimulation.js"
+    "testInput": "mocha --timeout=30000 ./tests/KeyboardSimulation.js",
+    "test:device": "mocha --timeout=30000 ./tests/Hooks/exampleTestHelpers.js",
+    "test:e2e": "mocha --timeout=30000 ./tests/e2e/*.js"
   },
   "author": "",
   "license": "ISC",
